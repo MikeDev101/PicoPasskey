@@ -1,7 +1,7 @@
 ![PicoPasskey_Icon](https://github.com/user-attachments/assets/07adf39a-e3f2-4170-a7e4-e9de58ac6ea7)
 
 # PicoPasskey
-A Raspberry Pi Pico-based bluetooth password typer.
+A Raspberry Pi Pico-based bluetooth password typer that runs on CircuitPython.
 
 This is a project that I made a long time ago. I put it here for archival purposes. If you feel like continuing development of this incredibly cursed device, go for it.
 
@@ -17,7 +17,7 @@ Now, imagine if you can take advantage of a password manager's autofill feature 
 Combine that with a Raspberry Pi Pico and a Bluetooth serial adapter, and you've got a PicoPasskey.
 
 # Cool. How do I...
-* **Flash the firmware** - Install a copy of MicroPython, then copy the files in the `fw` folder to the exposed drive interface. Reboot the device once, then follow further instructions below.
+* **Flash the firmware** - Install a copy of CircuitPython, then copy the files in the `fw` folder to the exposed drive interface. Reboot the device once, then follow further instructions below.
 * **Wire things up** - See provided schematics.
 * **Autofill my credentials** - Install the provided PicoPasskey.apk app, or use a Bluetooth Serial Terminal app with the instructions provided below.
 
